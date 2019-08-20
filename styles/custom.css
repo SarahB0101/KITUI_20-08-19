@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:500i&display=swap');
+
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	bottom: 0;
+	width: 100%;
+	height: 180px;
+	background-color: #343a40;
+}
+
+.navbar {
+	background-color: white;
+	font-family:'IBM Plex Mono', monospace;
+
+}
+.site-element {
+	height: 350px;
+	overflow: hidden;
+	position: relative;
+}
+
+.site-element img{
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+.nav-item {
+
+	font-family:'IBM Plex Mono', monospace;
+
+}
+
+
+
+h1, h2{
+	color :#fff182;
+	text-shadow: 2.5px 2.5px 0px #10e48d;
+}
+
+
+h3, h4, h5, h6{
+	color :#fff182;
+	text-shadow: 1px 1px 0px #10e48d;
+}
+
+p{
+	color:white;
+}
+
+a {
+	color: #ff5a3e;
+}
+
+.container {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.jumbotron-home {
+	background: url('https://cdn.pixabay.com/photo/2015/12/08/00/29/northern-lights-1081752_960_720.jpg');
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+
+}
+.jumbotron-events {
+	background: url('https://cdn.pixabay.com/photo/2018/05/10/11/34/concert-3387324_960_720.jpg');
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	text-shadow: 0px 0px 120px #171717;
+}
+
+.section_green {
+	background-color: #10e48d;
+}
+
+.section_pink {
+	background-color: #ff818f;
+}
+
+.section_orange {
+	background-color: #ff5a3e;
+}
+
+.section_yellow{
+	background-color: #fff182;
+}
+
+
+.container-back {
+	background-color: black;
+}
+
+
+
+.row {
+	padding-top: 50px;
+}
+
+.footer {
+	background-color: black;
+}
+
+.pgray {
+	color: grey;
+}
+
+
+.overlay-container {
+	position:relative;
+	height:200px;
+	overflow: hidden;
+}
+
+.overlay-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.avatar-img {
+	width:32px;
+	height:32px;
+
+}
+
+
+
+.jumbotron {
+	margin-bottom: 0px;
+	padding-right: 150px;
+	padding-left: 150px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
